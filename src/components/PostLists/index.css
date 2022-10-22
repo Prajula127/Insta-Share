@@ -59,7 +59,7 @@
 }
 .button-icons {
   outline: none;
-  border: none;
+  border-width: 0px;
   background-color: transparent;
   cursor: pointer;
   margin-left: 10px;
@@ -117,7 +117,7 @@
 .texts2 {
   color: #e7e3e3;
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 340px) {
   .post-image {
     height: 400px;
   }
@@ -126,5 +126,12 @@
   }
   .profile-name {
     font-size: 13px;
+  }
+  .button-icons {
+    outline: none;
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
   }
 }

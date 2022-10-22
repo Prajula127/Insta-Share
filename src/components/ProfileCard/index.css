@@ -22,7 +22,7 @@
 }
 .names {
   font-family: 'Roboto';
-  font-weight: 300;
+  font-weight: 500;
   font-size: 32px;
 }
 .follow-count-container {
@@ -76,6 +76,7 @@
   width: 78px;
   height: 78px;
   border-radius: 39px;
+  margin-right: 10px;
 }
 .line {
   width: 100%;
@@ -133,11 +134,11 @@ texts {
   }
   .follow-count {
     font-size: 12px;
-    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .count {
     font-size: 12px;
-    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .grid-icon {
     width: 14px;
@@ -163,5 +164,6 @@ texts {
     width: 56px;
     height: 56px;
     border-radius: 28px;
+    margin-right: 6px;
   }
 }

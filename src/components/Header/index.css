@@ -177,11 +177,9 @@
   }
   .nav-links-container1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
     list-style-type: none;
   }
   .logout-button {
@@ -198,6 +196,7 @@
   }
   .nav-link {
     outline: none;
+    margin-left: 8px;
   }
   .close {
     margin-right: 0px;
